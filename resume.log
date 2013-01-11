@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=pdflatex 2012.12.10)  10 JAN 2013 20:49
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=pdflatex 2012.12.10)  11 JAN 2013 14:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -68,7 +68,7 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--53
+Underfull \hbox (badness 10000) in paragraph at lines 52--56
 
  []
 
@@ -88,7 +88,7 @@ nts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (1 page, 64666 bytes).
+Output written on resume.pdf (1 page, 64576 bytes).
 PDF statistics:
  28 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream
