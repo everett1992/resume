@@ -8,37 +8,42 @@
 % placed in the public domain
 
 \documentclass[line, margin]{res}
+\usepackage{multicol}
 \begin{document}
   \name{Caleb Everett}
   \address{63 Villa Ave.\\ Pitman, NJ 08071\\ (609)-670-5137}
-
   \begin{resume}
     \section{OBJECTIVE}
     A summer Internship that will use and develop my software development skills
     \section{EDUCATION}
     Bachelor of Science in Computer Science \\
     College of New Jersey, Ewing, NJ \\
-    Expected to graduate May 2014
-    \begin{itemize}
-        \item Network Security
-        \item Data Structures and Databases
-        \item Programming Best Practices
-        \item Computer Architecture
-        \item Statics
-        \item Cloud Computing (spring 2013)
-        \item Operating Systems (spring 2013)
-        \item Astronomy (spring 2013)
-    \end{itemize}
+    Expected to graduate May 2014 \\
+    Computer science classes:
+    \begin{multicols}{2}
+      \begin{itemize}
+          \item Network Security
+          \item Data Structures and Databases
+          \item Programming Best Practices
+          \item Computer Architecture
+          \item Cloud Computing (spring 2013)
+          \item Operating Systems (spring 2013)
+      \end{itemize}
+    \end{multicols}
     \section{SKILLS}
-    \begin{itemize}
-        \item Ruby, Ruby on Rails
-        \item HTML, Javascript, CSS
-        \item Unix/Linux, Vim, Git
-        \item C++
-        \item Java
-        \item Bash
-        \item SQL
-    \end{itemize}
+    \begin{multicols}{2}
+      \begin{itemize}
+          \item Ruby, Ruby on Rails
+          \item HTML, Javascript, CSS
+          \item Unix/Linux, Vim, Tmux, Git
+          \item Amazon Web Services
+          \item C++
+          \item Java
+          \item Python
+          \item Bash
+          \item SQL
+      \end{itemize}
+    \end{multicols}
     \section{EXPERIENCE}
     \textit{Intern at BC Technology} \hfill 2011-2013 \\
     Developed a web based point of sale and business management system.
@@ -50,12 +55,15 @@
       \item Ruby on Rails API
     \end{itemize}
     I also designed a Java server using the JPOS library that allowed our cloud based point of sale app
-    to control cash registers and receipt printers attached to the client computers.
+    to control cash registers and receipt printers attached to the client computers. \\
     \textit{Groundskeeper at Pitman High} \hfill 2008-2010 \\
     \section{HONORS}
     \begin{itemize}
+      \item Wrote a class scheduling application for The College of New Jersey
       \item 2nd Place New Jersey TEAMS Engineering Competition division 3 2010
       \item President of Outdoors Club
     \end{itemize}
+    \section{GITHUB}
+    https://github.com/everett1992
   \end{resume}
 \end{document}
