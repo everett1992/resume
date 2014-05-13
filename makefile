@@ -3,12 +3,12 @@
 # digital: color? hyperlink'ed urls
 BUILD_DIR=build
 
-all: resume.pdf
+all: caleb_everett.pdf
 
-resume.pdf: $(BUILD_DIR) resume.tex
-	@echo "Compiling resume.tex with rubber"
-	@rubber --pdf --into $(BUILD_DIR) resume.tex
-	@cp $(BUILD_DIR)/resume.pdf .
+caleb_everett.pdf: $(BUILD_DIR) caleb_everett.tex
+	@echo "Compiling caleb_everett.tex with rubber"
+	@rubber --pdf --into $(BUILD_DIR) caleb_everett.tex
+	@cp $(BUILD_DIR)/caleb_everett.pdf .
 
 $(BUILD_DIR):
 	@echo "Create build directory $(BUILD_DIR)"
